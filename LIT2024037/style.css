@@ -1,0 +1,46 @@
+li{
+    height:15vh;
+    list-style-position: inside;
+    margin:10px;
+    border:10px solid blue;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+ul{
+    background-color: rgb(134, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+div{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    padding-left:25vw;
+}
+
+img{
+    height:150px;
+    float:right;
+    padding: 0px;
+    margin-top: -65px;
+    margin-right: 65px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    border: 5px solid black;
+}
+
+*{
+    font-weight: bold;
+    color:red;
+    font-size: xx-large;
+    
+}
