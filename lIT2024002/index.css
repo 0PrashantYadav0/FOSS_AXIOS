@@ -1,0 +1,28 @@
+#heading{
+    margin-left: 400px;
+    font-size: x-large;
+    color: white;
+}
+body{
+    background-image: linear-gradient(to right,rgb(0,0,0),rgb(53, 53, 53),rgb(67, 67, 67));
+}
+
+#pic{
+    display: block;
+    height: 120px;
+    width: 100px;
+    border-radius: 15px;
+    filter: grayscale(90%);
+
+}
+#txt{
+   display: block;
+   width: 1000px;
+   height: 40px;
+   margin-left: 98px;
+   margin-bottom: 100px;
+   color: white;
+  
+  text-align: center;
+  
+}
