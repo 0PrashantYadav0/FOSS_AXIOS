@@ -1,0 +1,50 @@
+div{
+    border: none;
+    border-radius: 15px;
+    box-shadow: #042630 5px;
+    width: 800px;
+    padding : 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #86b9b0;
+  
+}
+
+h3{
+    text-align: center;
+
+}
+
+body{
+   margin: 100px 300px 100px 300px;
+   background-color: #d0d6d6;
+}
+
+.photo{
+    height: 150px;
+    width: 200px;
+   margin: 0px 0px 0px 300px;
+   border: 5px solid #042630;
+   box-shadow: 5px #4c7273;
+   border-radius: 100px;
+
+}
+.insta{
+    height: 75px;
+    width: 75px;
+    margin-left: 40px;
+}
+.linkedin{
+    height: 80px;
+    width: 80px;
+   margin-left: 250px;
+    
+}
+.github{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+}
+.text{
+    font-weight: bolder;
+    display: inline;
+}
