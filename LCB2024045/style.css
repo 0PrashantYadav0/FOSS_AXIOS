@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Arial', sans-serif; */
+    /* background-color: #f4f4f9; */
+    /* background-image: ; */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #01063b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-family: Bebas Neue;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6db9d2;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #6db9d2;
+}
+
+.info p {
+    font-family: Bebas Neue;
+    letter-spacing: 1.8px;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.additional-info h2 {
+    font-family: Bebas Neue;
+    letter-spacing: 2px;
+    color: #6db9d2;
+    margin-bottom: 10px;
+}
+
+
+.additional-info p {
+    font-family: Bebas Neue;
+    letter-spacing: 1.8px;
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links h2 {
+    font-family: bebas neue;
+    letter-spacing: 2px;
+    color: #6db9d2;
+    margin-bottom: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.social-link:hover img {
+    transform: scale(1.5);
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
