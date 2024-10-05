@@ -6,6 +6,8 @@
     font-family: operator-mono-lig-italic;
     src: url(assets/OperatorMonoLig-BookItalic.otf);
 }
+
+
 ul{
     gap:5px;
     display: flex;
@@ -24,7 +26,7 @@ body{
     padding: 5%;
     box-sizing: border-box;
     font-family: operator-mono-lig;
-    font-size: 21px;
+    font-size: 18px;
 }
 span{
     font-family: operator-mono-lig-italic;
@@ -53,7 +55,7 @@ span#nameName::after{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 30%;
     background-image: url(assets/makishima.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +97,7 @@ span#nameName::after{
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     margin: 0 4%;
     /* gap: 40px; */
     
@@ -128,6 +130,31 @@ span#nameName::after{
     background: #4C56C9;
     /* border: black solid; */
 }
+.contentfrfr{
+    overflow: scroll;
+    height: 100%;
+    scrollbar-width: none;
+}
+.codef{
+    margin-top: 5px;
+    border-radius: 8%;;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 16px;
+    gap:8px;
+    border-radius: 12px;
+    background: #121214;
+}
+.codec{
+    margin-top: 5px;
+    border-radius: 8%;;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 16px;
+    gap:8px;
+    border-radius: 12px;
+    background: radial-gradient(#67381E, #472A18);
+}
 .insta{
     display: inline-flex;
     align-items: center;
@@ -142,11 +169,21 @@ span#nameName::after{
     /* z-index: 2; */
     position: relative;
     background-color: white;
+    padding-right: 20px;
 }
 #mainmain{
     height: 100%;
     display: flex;
     gap: 40px;
     flex-direction: row;
+    width: 100%;
 
+}
+@media screen and (max-width: 1366px){
+    body{
+        font-size: 12px;
+    }
+    #maincont{
+        width: calc(100% - 250px);
+    }
 }
