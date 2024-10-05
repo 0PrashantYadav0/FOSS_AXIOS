@@ -1,0 +1,310 @@
+body {
+    background-color: #222A31;
+}
+
+/*
+All the header element's styles starts from here.
+*/
+.header {
+    background-color: #151413;
+    border-radius: 20px;
+}
+
+.header ul {
+    overflow: auto;
+}
+
+.header li {
+    float: left;
+    list-style: none;
+    margin: 14px 10px;
+}
+
+.header li a {
+    padding: 10px 40px;
+    margin: 100px 100px;
+    text-decoration: none;
+    color: #e8e7e9;
+    font-family: 'avenir';
+}
+
+.header li a:hover {
+    color: #F68340;
+}
+
+/*
+All the image element's styles starts from here.
+*/
+.image img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+}
+
+.image img:hover {
+    transition: 2s;
+    transform: rotateZ(360deg);
+}
+
+.image a {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-family: 'avenir';
+    color: #1F1D22;
+}
+
+/*
+All the first block element's styles starts from here.
+*/
+.first {
+    background-color: #91cfec;
+    padding-bottom: 30%;
+    padding-top: 5%;
+    border-radius: 30px;
+}
+
+/*
+All the spiral image element's styles starts from here.
+*/
+.spiral img {
+    width: 50px;
+    animation: spiral 7s linear infinite;
+}
+
+.spiral {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+    top: -70px;
+}
+
+/*
+animation of the spirals
+*/
+@keyframes spiral {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/*
+time delay of the spirals
+*/
+.spiral img:nth-child(1) {
+    animation-delay: 2s;
+    width: 40px;
+}
+
+.spiral img:nth-child(2) {
+    animation-delay: 4s;
+    width: 60px;
+}
+
+.spiral img:nth-child(3) {
+    animation-delay: 1s;
+    width: 30px;
+}
+
+.spiral img:nth-child(4) {
+    animation-delay: 5s;
+    width: 50px;
+}
+
+.spiral img:nth-child(5) {
+    animation-delay: 3.25s;
+    width: 55px;
+}
+
+.spiral img:nth-child(6) {
+    animation-delay: 4.5s;
+    width: 45px;
+}
+
+.spiral img:nth-child(7) {
+    animation-delay: 6s;
+    width: 35px;
+}
+
+/*
+content starts
+*/
+/*
+1st line 
+*/
+.rocket img {
+    width: 50px;
+}
+
+.rocket img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.rocket a {
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-family: 'avenir';
+    color: #1F1D22;
+}
+
+.rocket a:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 10px #fccf8d,
+        0 0 20px #fccf8d,
+        0 0 40px #fccf8d,
+        0 0 80px #fccf8d,
+        0 0 120px #fccf8d,
+        0 0 160px #fccf8d;
+}
+
+/*
+2nd line 
+*/
+.coding img {
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+}
+
+.coding img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.coding span {
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'avenir';
+    color: #1F1D22;
+    transition: 1.5s;
+}
+
+.coding span:hover {
+    filter: blur(20px);
+    opacity: 0;
+    transform: scale(2);
+}
+
+.languages img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.languages img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.languages a {
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'avenir';
+    color: #1F1D22;
+}
+
+.cpp img {
+    width: 85px;
+    height: 81px;
+    padding: 34px;
+    padding-right: 25px;
+    border-radius: 100px;
+    float: inline-start;
+}
+
+.cpp img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.js img {
+    width: 70px;
+    height: 70px;
+    padding: 40px;
+    border-radius: 100px;
+    float: inline-start;
+}
+
+.js img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.html img {
+    width: 80px;
+    height: 80px;
+    padding: 36px;
+    float: inline-start;
+}
+
+.html img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.css img {
+    width: 80px;
+    height: 80px;
+    padding: 37px;
+    float: inline-start;
+}
+
+.css img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.python img {
+    width: 74px;
+    height: 73px;
+    border-radius: 100px;
+    padding: 39px;
+    margin-top: 3.5px;
+    float: inline-start;
+}
+
+.python img:hover {
+    transition: 2s;
+    transform: rotateX(360deg);
+}
+
+.second {
+    background-color: #e9d3fd;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.title {
+    padding: 30px;
+    align-items: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: #1F1D22;
+    font-family: 'avenir';
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
