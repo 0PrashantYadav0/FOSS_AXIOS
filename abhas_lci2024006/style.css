@@ -31,7 +31,7 @@ body{
     height:400px ;
     width: 60%;
     box-shadow:  3px 0 5px 2px red ;
-    z-index: 1;
+    border-radius: 10%;
 }
 .end{
     height: 100px;
