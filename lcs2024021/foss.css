@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+    font-size: medium;
+    text-align: center;
+    margin: auto;
+}
+div{
+    background-color: rgb(102, 148, 27);
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    font-family: Lucida Sans;
+    padding: 50px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    padding: 0px;
+}
