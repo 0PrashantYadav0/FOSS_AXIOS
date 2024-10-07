@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(38, 177, 47);
+            font-size: large;
+        }
+        
+        #Page{
+            background-color: #0b1510;
+        
+            height: auto;
+            width: 800px;
+            margin-left: 350px;
+            margin-top: 140px;
+            border: 8px rgb(38, 177, 47) double;
+            border-radius: 10px;
+            /* border-color: ;
+            border-width: 2px; */
+            padding: 15px;
+          
+        }
+
+        #myimage{
+            border-radius: 50%;
+            scale: 0.8;
+
+        }
+        
+        #img{
+            border: 5px solid #555;
+            display: contents;
+        }
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+             min-width: 100%;
+             max-width: 120%;
+             max-height: 120%;
+             min-height: 50%;
+            z-index: -1;
+}
+#h{
+    display: contents;
+}
+#S{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 100;      
+    font-size: small;
+}
+#I{
+    border-radius: 50%;
+    
+}
+#Im{
+    border-radius: 50%;
+    
+}
+
+
+
+    </style>
+</head>
+<body>
+    <!-- The video -->
+<video autoplay muted loop id="myVideo">
+    <source src="BVideo.mp4" type="video/mp4">
+  </video>
+    
+   <div id="Page" >
+    <h3 id="h">About Me...</h3>
+    <img src="image.png" id="myimage" alt="My Photo" height="300px" align="right">
+
+        <ul>
+            
+            <li>Name - <b>VEDANT KULKARNI</b></li>
+            <li>Branch - <b>CSB</b></li>
+            <li>Roll No. - <b>LCB2024025</b></li>
+            <li>Skills - <b>C++, JAVASCRIPT, HTML, CSS</b></li>
+            <li>Hobbies - <b>MUSIC, EXPLORING NEW THINGS, MOVIES </li>
+        </ul>
+        <hr color="green">
+        <div id="S"> As I start my academic journey, I’m excited to explore the vast world of technology and computing. Although I haven’t yet discovered my specific area of interest, I’m open to exploring different fields within computer science, from software development to data science and artificial intelligence.</div>
+        <hr color="green">
+        <div align="center">
+            <img src="Git.jpg" id="Im" alt="Git" height="50px" >              <img src="In.png" alt="Linkedin" height="50px">           <img src="instagram.jpg" id="I" alt="Insta" height="50px" >
+        </div>
+    </div> 
+
+</body>
+</html>
