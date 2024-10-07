@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkzNzg4MTIxMjM2NjQ1MzE1/aesthetic-website-backgrounds.gif);
+    background-size: cover;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.info{
+    background-image: url(https://png.pngtree.com/background/20230419/original/pngtree-website-science-and-technology-light-effect-ring-background-picture-image_2448025.jpg);
+    color: white;
+    font-family: sans-serif;
+}
+.skills,.hobbies,.contactme{
+    color:white;
+    margin-left: 50px ;
+}
+h1{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.Mypicture{
+    margin-left: 50px;
+    height: 30%;
+    width: 30%;
+}
+.linkedin{
+    height: 9%;
+    width: 9%;
+}
+.github{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    height: 7%;
+    width: 7%;
+}
+.instagram{
+    height: 10%;
+    width: 10%;
+}
+ul{
+    font-weight: 500;
+    font-size: larger;
+}
+
