@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Intro</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00; 
+            font-family: 'Courier New', Courier, monospace; 
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            border: 1px solid #00ff00; 
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 0 10px #00ff00;
+            position: relative;
+        }
+
+        h1, p {
+            margin: 10px 0;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-shadow: 0 0 20px #00ff00;
+        }
+
+        .typewriter {
+            overflow: hidden;
+            border-right: 2px solid #00ff00;
+            white-space: nowrap;
+            letter-spacing: 3px;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #00ff00 }
+        }
+
+        
+        .profile-img {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid #00ff00;
+            box-shadow: 0 0 15px #00ff00;
+            object-fit: cover;
+            
+        }
+        a:hover{
+            text-decoration: underline ; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="typewriter">Access Granted</h1>
+        <p>Name: Vedant Vijay Humbe</p>
+        <p>Roll No.: lit2024029</p>
+        <p>Branch: Information Technology</p>
+        <p>Skills: C++, HTML, CSS, Public Speaking</p>
+        <p>Hobbies: Football, Learning New Stuff, Badminton</p>
+        <p>Location: Satara, Maharashtra</p>
+        <p>More Info: <a href="https://www.linkedin.com/in/vedant-humbe-a96a94327/" target="_blank">LinkedIn Profile</a></p>
+        <p>Exploring new technologies, enhancing skills, aiming to solve real-world problems...</p>
+        <img class="profile-img" src="https://media.licdn.com/dms/image/v2/D4E03AQFpeurclPKLTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726290050330?e=1733356800&v=beta&t=qErNMB03Ex91PSBdxeMHoWHZJYnaKaTH_6bQX5zJEI8" alt="Vedant's photo">
+    </div>
+</body>
+</html>
