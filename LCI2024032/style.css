@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+25&family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+
+/* html {
+    overflow: hidden;
+} */
+
+body{
+    background-color: #001219;
+}
+
+#a1{
+    color: #ee9b00;
+    display : inline-block;
+    margin-left: 30px;
+    font-size: 30px;
+}
+#a2{
+    color: #ca6702;
+    display : inline-block;
+    padding-left: 650px;
+}
+
+#outer{
+    position : absolute;
+    top : 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.headerpart{
+    color: #ca6702;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#a3{
+    height :550px;
+    width: 890px;
+    display: inline-block;
+    margin-top : 200px;
+    margin-left:40px;
+    background-color: #0a9396;
+    border-radius: 2%;
+    box-shadow: 0px 0px 20px #94d2bd;
+}
+#welcome{
+    width : 800px;
+    height : 100px;
+    padding-top: 75px;
+    color:#e9d8a6;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#about{
+    width : 800px;
+    height : 200px;
+    font-size: 25px;
+    color: rgba(255,255,255,0.75);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 30px;
+    text-align: justify;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #ee9b00;
+}
+img{
+    padding-left: 30px;
+}
+
+#a5 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 10px;
+    top: 350px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    background-color: transparent; 
+}
