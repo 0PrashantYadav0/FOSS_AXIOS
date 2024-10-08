@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(190, 196, 196);
+    padding: auto;
+    border: 3px solid rgb(255, 254, 254) ;
+}
+div{
+    text-align: center;
+   
+    color: beige;
+    align-items: center;
+    background-color: rgb(193, 29, 193);
+    text-shadow: 2px;
+    border:2px solid rgb(243, 238, 243) ;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 3in;
+}
+img{
+    align-items: center;
+    padding: auto;
+    border: 2px inset rgb(241, 239, 241);
+    border-radius: 8px;
+    width: 150px;
+
+}
