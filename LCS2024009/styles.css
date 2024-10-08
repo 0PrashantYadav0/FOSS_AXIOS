@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(black,rgb(60, 57, 57));
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    background: url('bg.png') no-repeat center center/cover;
+    height: 60vh;
+    color: #fff;
+    text-align: center;
+}
+.phone {
+    background: #ffc107;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    color: #0d0d0d;
+}
+
+.hero {
+    margin-top: 5rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero h2 span {
+    color: #ffc107;
+}
+
+#about {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-right: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-text h3 {
+    margin-bottom: 1rem;
+}
+
+.about-text ul {
+    list-style: none;
+}
+
+.about-text ul li {
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #ffc107;
+    color: #0d0d0d;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+#services {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+    width: 30%;
+}
+
+.card h3 {
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+#skills {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress {
+    background: #ffc107;
+    height: 100%;
+}
+
+.card:hover{
+    background-color: rgb(62, 64, 65);
+    border: 5px double rgb(47, 49, 50);
+    box-shadow:5px 5px #3f3838;
+}
+#y:hover{
+    border: 5px groove white;
+    box-shadow:10px 1px #3f3838;
+}
