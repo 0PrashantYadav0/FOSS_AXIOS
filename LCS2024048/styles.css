@@ -1,0 +1,44 @@
+body{
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+
+}
+
+.photo{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: solid black;
+}
+fieldset{
+    border-radius: 8px;
+    border: outset black 4px;
+    display: flex;
+    justify-content: center;
+    justify-self: unset;
+    background: linear-gradient(to right, purple, pink, orangered);
+    
+}
+
+.text{
+    font-size: large;
+    text-indent: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-shadow: 2px  black;
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-width: 120%;
+    max-height: 120%;
+    min-height: 50%;
+    z-index: -1;
+}
