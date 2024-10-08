@@ -1,0 +1,23 @@
+.container {
+    margin: 0 auto;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+table{
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+    background-color: #f3ffff
+
+}
+img{
+    padding: 5px;
+}
+td{
+    /*border: 1px solid black;*/
+    padding: 5px;
+    font-size: 26px;
+}
