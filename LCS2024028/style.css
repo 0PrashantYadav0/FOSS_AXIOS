@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#name:hover,#about:hover{
+    color: yellow;
+}
+
+header:hover {
+    background: #0056b3;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    font-weight: bold;
+    font-size: medium;
+    background-color: #0056b3;
+    color: aliceblue;
+}
+
+
+h2:hover{
+    background-color: #0056b3;
+    color: aliceblue;
+}
+
+.links{
+    text-decoration: none;
+    color: crimson;
+}
+
+.links:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    transition: background-co
+}
+
+footer:hover{
+    font-weight: bold;
+    font-size: medium;
+    color: aqua;
+}
+
+#hearts{
+    color: red;
+}
