@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(rgb(221, 90, 90),rgb(214, 121, 67));
+}
+h1{
+    font-family:cursive; 
+    color:black;
+    text-align: center;
+    font-size:60px;
+}
+h2{
+    font-family:fantasy;;
+    font-weight:bold;
+    color:rgb(107, 21, 4);
+    }
+    #p1{
+        font-family: URW Chancery L, cursive;
+         font-size: 18px;;
+    }
+    #p2{
+        font-family: URW Chancery L, cursive;
+        font-weight:bold;
+        font-size: 18px;;
+      }
+      #p3{
+        font-family: URW Chancery L, cursive;
+        font-weight:bold;
+        font-size: 18px;;
+      }
+      .par{ 
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-family: Optima, sans-serif	;
+      }
+      img{
+        height:150px;
+        width:150px;
+        border:white;
+      }
+      .box{
+        background:linear-gradient(rgb(195,174,174),rgb(234, 88, 35));
+        text-align:left;
+        width: 800px;
+        height: 1000px;
+        padding:20px;
+        margin-left:350px;
+        box-shadow: rgba(0, 0, 0, 0.1);
+      }
+      
+      #handles{
+        font-family: Bradley Hand, cursive;
+        font-size: 18px;
+      }
+      #skills{
+        font-size: 20px;
+        font-family: Trattatello, fantasy	;
+      }
+     
