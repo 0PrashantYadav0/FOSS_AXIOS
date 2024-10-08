@@ -54,7 +54,7 @@ git commit -m "Added my portfolio files - <your-roll-number>"
 ### 7. Push Your Branch
 Push the newly created branch to your forked repository:
 ```bash
-git push origin <your-roll-number>
+git push --set-upstream origin <your_branch_name>
 ```
 
 ### 8. Create a Pull Request

@@ -1,0 +1,34 @@
+body{
+    font-size:20px;
+    line-height:1;
+    background-image:url(back.jpg);
+    
+}
+img {
+
+    height:200px;
+    float:right;
+    margin-top: 15%;
+    margin-right:10%;
+    border-radius: 15%;
+}
+h1{
+    text-align:center;
+    color:white;
+    font-style: italic;
+}
+div{
+    border: 1px dotted pink;
+    margin: auto;
+    padding:30px;
+    width:54.5%;
+    background-color: white;
+    border-radius: 10%;
+    background-image:url(book.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+li{
+    list-style-type:square;
+}

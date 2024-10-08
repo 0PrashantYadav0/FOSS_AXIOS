@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    background-color: #5de4dff8;
+}
+
+header {
+    background-color: #d12127;
+    color: #fff;
+    padding:0;
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    padding: auto;
+}
+
+.skills, .hobbies, .other-info {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    background-color: whitesmoke;
+    border-radius: auto;
+}
+
+div{
+    background-color: #fff;
+    margin: auto;
+    padding: auto;
+    border-radius: auto; 
+    height: 125px;
+}
