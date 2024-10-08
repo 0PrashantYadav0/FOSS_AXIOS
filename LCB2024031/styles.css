@@ -1,0 +1,60 @@
+
+body{
+    background : url(https://wallpapershome.com/images/pages/ico_h/26342.jpg);
+    background-size: cover;
+    margin: 100px 300px 100px 300px;
+   background-color: #d0d6d6;
+}
+
+
+
+.header {
+    background-color: black;
+    border-radius: 20px;
+    font-size: large;
+    width: 100%;
+}
+
+.header ul {
+    overflow: auto;
+}
+
+.header li {
+    float: left;
+    list-style: none;
+    margin: 14px 10px;
+}
+
+.header li a {
+    padding: 10px 40px;
+    margin: 100px 100px;
+    text-decoration: none;
+    color: #e8e7e9;
+    font-family: 'avenir';
+    font-weight: bolder;
+}
+
+.header li a:hover {
+    color: red;
+}
+
+#main{
+    border: none;
+    border-radius: 15px;
+    box-shadow: #042630 5px;
+    width: 100%;
+    padding : 20px;
+   background-color: white;
+}
+
+h3{
+    text-align: center;
+    font-size: xx-large;
+}
+.photo{
+    margin-left: 240px;
+    height: 400px;
+}
+#left{
+    color: maroon;
+}
