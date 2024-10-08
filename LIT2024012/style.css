@@ -1,0 +1,29 @@
+body{
+    height: 800px;
+    background: linear-gradient(to right, #8bb7ff, #c2e9fb);
+}
+h1{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    display: inline;
+    font-family: "Courier New";
+}
+p{
+    font-size: x-large;
+}
+#Intro{
+    display: flex;
+}
+#ipart2{
+    display: flex;
+    margin-left: 100px;
+}
+img{
+    margin-left: 30px;
+}
+fieldset{
+    font-size: x-large;
+    border: 1px solid white;
+}
