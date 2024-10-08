@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+}
+#Id1{
+    font-size: larger;
+    font-weight: 400;
+}
+.text{
+    font-size: larger;
+    font-weight: 400;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 10px;
+}
+#dhanyawaad{
+    font-size:x-large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+img{
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
