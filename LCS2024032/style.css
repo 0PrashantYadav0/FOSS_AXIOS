@@ -1,0 +1,122 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 500px;
+    width: 100vw;
+    background-image: url(https://c1.wallpaperflare.com/preview/367/582/368/glass-scifi-violet-ultraviolet.jpg);
+    background-size: cover;
+    color: antiquewhite;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: 0px;
+    width: 5px;
+    background-color: rgba(70, 11, 11, 0);
+    color: aliceblue;
+    font-size: 20px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+button:hover{
+    background-color: rgba(70, 11, 11, 0.5);
+    color: yellowgreen;
+    
+}
+nav:hover{
+    background-color: rgba(228, 169, 169, 0.25);
+}
+#p1{
+    font-size: 45px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    
+}
+#p2{
+    margin-left: 350px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+h1{
+    font-size: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+.nav2{
+    margin: 0 auto;
+    width: 100vw;
+
+}
+.list1{
+    float: left;
+    margin: 50px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.a1{
+    text-decoration: none;
+}
+.threeSections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about{
+    background-color: rgb(255, 255, 255);
+    width: 34vw;
+
+    height: 400px;
+    margin: 0 auto;
+    border-right: 1px solid rgb(188, 174, 174);
+}
+hr{
+    color: black;
+    border: 5px;
+    
+}
+#div3Head{
+    font-size: 30px;
+}
+.footer{
+    background-color: rgb(65, 60, 60);
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+.a2{
+    text-decoration: none;
+    color: white;
+}
+strong{
+    font-size: 30px;
+}
+.div3Head{
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.p3{
+    text-align: center;
+    font-size: 20px;
+
+}
+.a1:hover{
+    color: rgb(229, 150, 4);
+}
+.list2{
+    color: rgb(166, 164, 164);
+    font-size: 20px;
+    margin: 20px;
+}
