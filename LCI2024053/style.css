@@ -1,0 +1,73 @@
+body {
+    background-color:black;
+}
+img{
+    height: 230px;
+    width: 300px;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+.pic {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+    font-size: large;
+    margin-top: 12px;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+      
+}
+.main{
+    background-color:blanchedalmond;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+pre {
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.skills {
+    text-align: justify;
+    
+}
+.follow {
+    display: inline-block;
+    margin: auto;
+    margin-left: 460px;
+    margin-top: 25px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    font-style:normal;
+      
+}
+.insta {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin-left: 510px;
+    margin-top: 5px;
+}
+.spotify {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin-top: 5px;
+}
+.portfolio {
+    color: gray;
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+      
+}
