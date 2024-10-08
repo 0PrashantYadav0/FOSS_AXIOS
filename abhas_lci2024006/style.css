@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+}
+#first{
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline orange 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(151, 245, 213);
+}
+#intro{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: rgb(4, 4, 44);
+    align-content: center;
+    text-align: center;
+    color: white;
+    margin-top:80px;
+    margin-left: 38%;
+    height:400px ;
+    width: 60%;
+    box-shadow:  3px 0 5px 2px red ;
+    border-radius: 10%;
+}
+.end{
+    height: 100px;
+    background-color: red;
+    color: yellow;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top:100px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    height:350px;
+    width: 350px;
+    border-radius: 50%;
+    border: orange 10px solid;
+    box-shadow:  3px 0 3px 3px red ;
+}
+#abc{
+    height: 300px;
+    width: 800px;
+    border: 1px solid red;
+    position: relative;
+    left: 50px;
+    padding-top:40px;
+    line-height: 2.5rem;
+}
