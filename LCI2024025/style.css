@@ -1,0 +1,61 @@
+#photo
+{height: 200px;
+    width: 150px;
+    background-image: url("photo.jpg");
+    background-size: cover;
+    margin-left: 850px;
+    background-color: blueviolet;
+}
+#intro{
+    text-align: center;
+    font-weight:bolder;
+    font-display:bold;
+    font-size: 40px;
+    text-transform: capitalize;
+    color-scheme: blue;
+    background-color: aqua;
+  
+}
+#name{
+
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #FF9933;
+
+}
+#rollno{
+
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #FF9933;
+}
+#branch{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #FFFFFF;   
+    color: #000080; 
+
+}
+#skills{font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #FFFFFF;  
+    color: #000080; 
+}
+#hobbies{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #138808;
+
+}
+#emp{
+
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #138808;
+}
