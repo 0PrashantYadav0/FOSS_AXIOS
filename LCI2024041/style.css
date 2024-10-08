@@ -1,0 +1,64 @@
+body{
+    /* background-color: aqua; */
+     background-size: cover;
+     background-image: url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg);
+ }
+ #name{
+     font-family: "Pacifico", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 100px;
+     color: aquamarine;
+     position: relative;
+     top: -227px;
+     left: 41px;
+ }
+ h1{
+     position: relative;
+     top: -91px;
+     left: 941px;
+     color: #7dc8c8;
+     font-size: 136px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ #two{
+   color: cornflowerblue;
+ }
+ #three{
+   color: pink;
+ }
+ #four{
+   color:mediumseagreen ;
+ }
+ #five{
+   color: yellow;
+ }
+ .addinfo{
+   position: relative;
+   text-wrap: nowrap;
+   overflow: hidden;
+   width: 38ch;
+   animation: typing 4s steps(48) infinite;
+   font-family: "Londrina Sketch", sans-serif;
+   /* top: 10px;
+   left: 10px; */
+ }
+ 
+ .addinfo::after{
+   content: ;
+   position: absolute;
+   top: 0;
+   right: 0;
+   background: #f89500;
+   height: 100%;
+   width: 5px;
+   
+ }
+ @keyframes typing {
+   from{
+     width: 0;
+   }
+   to{
+     width: 38ch;
+   }
+ }
