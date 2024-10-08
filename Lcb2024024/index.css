@@ -1,0 +1,30 @@
+*{
+    font-family: cursive;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color:wheat;
+   
+}
+
+#photo{
+    display: inline-block;
+}
+
+header{
+    text-align: center;
+    color: cornflowerblue;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heart{
+    color: red;
+}
