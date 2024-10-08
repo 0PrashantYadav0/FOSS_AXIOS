@@ -1,0 +1,46 @@
+.dec{
+    text-align: center ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size: x-large;
+    
+    height:200px;
+
+    border:8px solid;
+    border-radius: 50%;
+    border-color: azure;
+    border-style: groove;
+    border-color: rgb(98, 150, 162);
+    
+}
+#who
+{
+    border-radius: 50%;
+    border-style: double;
+    border-color: aquamarine;
+    animation-name: cross;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    
+}
+
+#skills{
+    border-radius: 50%;
+    float: right;
+    border-style: dotted;
+    border-color: rgb(75, 210, 7);
+    animation-name: cross1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    
+}
+@keyframes cross{
+    
+    from{ transform: translate(-300px);}
+}
+@keyframes cross1{
+    from{
+        transform: translate(400px) ;
+      }
+      
+}
