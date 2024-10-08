@@ -1,0 +1,22 @@
+
+        #INTRODUCTION {
+            border: 3px black;
+            padding: 4px;
+            }
+            .img1{
+                border: 2px;
+                padding: 5px;
+                width: 900px;
+                border-radius: 15px;
+            }
+         .img2 {
+            border: 2px black;
+            padding: 5px;
+            width: 1350px;
+            border-radius: 15px;
+         }
+        .p{
+            font-size: large;
+        }
+        
+  
