@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body
+ {
+    
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.box {
+ 
+    max-width: 800px;
+    padding: 30px;
+    background-color: #0e9564ec;
+    border-radius: 8px;
+}
+.personal info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.social-websites {
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.social-websites img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.social-websites:hover img {
+    transform: scale(1.25);
+}
