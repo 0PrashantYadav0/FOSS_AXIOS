@@ -46,7 +46,7 @@ Inside the newly created folder, add an `index.html` and `style.css` file. These
 
 ### 6. Add and Commit Your Changes
 After adding your HTML and CSS files, use Git to stage and commit your changes:
-```bash
+
 git add .
 git commit -m "Added my portfolio files - <your-roll-number>"
 ```
