@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e1e1e1;
+}
+
+header {
+    background: #35424a transparent;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header p{
+    font-weight: 500;
+    font-size: 20px;
+    /* padding: -15px; */
+    margin-top: -10px;
+}
+
+#img1{
+    opacity: 80%;
+    height:217px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+#cont{
+    height: 165px;
+    width: 400px;
+    background-color:black;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 45%;
+    top: 30px;
+    left: 400px;
+    border-radius: 25px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul:hover{
+    scale: 1.05;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+#about{
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 18px;
+    height: 200px;
+    width: 900px;
+    box-shadow: 0 0 5px ;
+}
+
+#about img{
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    left: 750px;
+    opacity: 80%;
+}
+
+#hobbies {
+    background: #ffffff;
+    border-radius: 18px;
+    position: absolute;
+    left: 260px;
+    width: 870px;
+    box-shadow: 0 0 5px ;
+}
+
+.hobbies{
+    margin-bottom: 20px;
+}
+
+#hobbies .art img {
+    height: 80px;
+    position: absolute;
+    top: 250px;
+    left: -210px;
+}
+
+#hobbies .art img:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+}
+
+#hobbies .gaming img{
+    height: 70px;
+    left: -210px;
+    position: absolute;
+    /* z-index: -1; */
+    top: 150px;
+}
+
+#hobbies .gaming img:hover{
+    scale: 0.9;
+    transition: 0.3s ease-in-out;
+}
+
+#hobbies .music img {
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    left: -120px;
+}
+
+#hobbies .music img:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+}
+
+#hobbies .music img#guitar{
+    height: 200px;
+    position: absolute;
+    top: 130px;
+    left: 650px;
+}
+
+#hobbies .music img#guitar:hover{
+    scale: 0.9;
+    transition: 0.5s ease-in-out;
+}
+
+#contact {
+    padding: 20pxx;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 18px;
+    position: absolute;
+    top:950px;
+    box-shadow: 0 0 5px ;
+    width: 900px;
+    height: 120px;
+}
+
+#contact img#dc{
+    height: 120px;
+    position: absolute;
+    top: 50px;
+    left: 950px;
+}
+
+#contact img#dc:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+}
+
+#contact img#t2{
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 1050px;
+    z-index: 3;
+}
+
+#contact img#t2:hover{
+    opacity: 0%;
+    transition: 0.5s ease-in-out;
+}
+
+#contact img#t1{
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 1050px;
+    z-index: 1;
+}
+
+#name{
+    border-radius: 10px;
+    height: 18px;
+}
+
+#email{
+    border-radius: 10px;
+    height: 18px;
+}
+
+#message{
+    border-radius: 10px;
+    height: 18px;
+    position: absolute;
+    border:2px solid rgba(0, 0, 0, 0.671);
+    left:543px;
+}
+
+#btn{
+    position: absolute;
+    left: 750px;
+    width: 100px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+}
+
+#btn:hover{
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(63, 63, 63, 0.817);
+    transition: 0.5s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #000000bc;
+    color: #ffffff;
+    position: absolute;
+    top: 1150px;
+    width: 100%;
+}
