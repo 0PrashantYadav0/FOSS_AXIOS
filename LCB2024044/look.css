@@ -1,0 +1,119 @@
+body{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerXSLyIQQLdskn41dy8ysxGgq7DmEXTt9Aw&s');
+    background-size: cover;
+}
+
+header{
+    display: inline-block;
+    letter-spacing: 150px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.first{
+    height: 600px;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 0px auto;
+    margin-top: 40px;
+    background-color: rgb(220, 249, 251);
+}
+
+.about{
+    position: relative;
+}
+
+.dropabout{
+    position: absolute;
+    display: none;
+    background-color: transparent;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0px;
+    width: 160px;
+}
+
+.dropabout a{
+    text-decoration: none;
+    display: block;
+    letter-spacing: 0px;
+}
+
+.about:hover .dropabout{
+    display: block;
+}
+
+.hobby{
+    position: relative;
+}
+
+.drophobby{
+    position: absolute;
+    display: none;
+    background-color: transparent;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0px;
+    width: 160px;
+}
+
+.drophobby a{
+    text-decoration: none;
+    display: block;
+    letter-spacing: 0px;
+}
+
+.hobby:hover .drophobby{
+    display: block;
+}
+
+button{
+    background: transparent;
+    width: 100px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.information{
+    transform: translate(30px,150px);
+    font-size: x-large;
+}
+
+
+.photo{
+    border-radius: 50%;
+    transform: translate(350px,-120px);
+}
+
+img{
+    border-radius: 5px;
+}
+
+.foot{
+    margin-top: 10px;
+    letter-spacing: 50px;
+    transform: translate(380px,-70px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
