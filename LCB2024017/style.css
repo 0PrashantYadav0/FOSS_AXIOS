@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik;
+}
+
+header {
+    height: 15vh;
+    top: 3vh;
+    left: 3vh;
+    width: 96vw;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.brand {
+    width: 60vw;
+    padding-left: 2vw;
+    height: 13vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 6vh;
+    letter-spacing: 1vw;
+    cursor: pointer;
+}
+
+.brand a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    width: 40vw;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 2vh 2vw;
+    letter-spacing: 0.5vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 4vh;
+    display: inline-block;
+    position: relative;
+    padding: 1vh;
+    color: #b145f5;
+    font-weight: 600;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.35vh;
+    bottom: 0;
+    left: 0;
+    background-color: #b145f5;
+    transition: transform 0.25s ease-out;
+    transform-origin: bottom center;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+}
+
+.img {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img img {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 50%;
+    z-index: -1;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.name {
+    font-size: 8vh;
+    margin: 0vh 0vh 1vh 8vh;
+}
+
+.branch {
+    font-size: 4.5vh;
+    margin: 0vh 0vh 1vh 8vh;
+}
+
+.college {
+    font-size: 4vh;
+    margin: 0vh 0vh 1vh 8vh;
+}
+
+.rollno {
+    font-size: 3vh;
+    margin: 0vh 0vh 1vh 8vh;
+}
+
+#skills {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.s-heading {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    letter-spacing: 1vw;
+    padding: 0 0 0 2vw;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 6vh;
+
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    grid-row-start: 5;
+    grid-row-end: 7;
+    margin: 1vw;
+    margin-top: 0;
+    justify-self: center;
+    width: 80%;
+    z-index: -1;
+}
+
+.card-h {
+    text-align: center;
+    font-size: 5vh;
+    padding: 1vh;
+}
+
+.set-img {
+    height: 10vh;
+    margin: 1vh;
+}
+
+.hobbies {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 3vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.hobbies-h {
+    font-weight: bold;
+    font-size: 4vh;
+    margin-right: 1vw;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 6vh;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+    color: white;
+}
+
+.sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-outro {
+    font-weight: bold;
+}
+
+.sm-card {
+    height: 3.5vh;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 1vh;
+}
+
