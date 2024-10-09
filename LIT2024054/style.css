@@ -1,0 +1,22 @@
+#body{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    background-color: bisque;
+    margin-left:  100px; 
+    margin-right: 100px;
+
+}
+#name{
+    text-align: center;
+}
+#tanmai{
+    background-color: lightpink;
+    margin-left:100px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: 20px;
+
+}
+
