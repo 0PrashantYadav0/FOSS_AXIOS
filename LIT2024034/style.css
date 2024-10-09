@@ -1,0 +1,146 @@
+*{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(Website\ background.jpg);
+    margin-top: 50px;
+    
+}
+header{
+    
+    display: block;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+.text{
+    display: none;
+}
+h3{
+    
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+#my{
+    bottom:12px;
+    border: 2px solid black;
+    color: black;
+    
+}
+#iiitl{
+    bottom: 39px;
+    border: 2px solid black;
+    color: black;
+}
+#photo{
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:55px;
+    border-radius: 10000000000000px;
+
+}
+#info{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+#intro{
+    
+    border: 1PX SOLID black;
+    height: fit-content;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    
+
+    
+}
+#skills{
+    
+    border: 1PX SOLID black;
+    height: fit-content;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    top:41.33px;
+    
+}
+#hobby{
+    border: 1PX SOLID black;
+    height: fit-content;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    top:82.66px;
+}
+#contact{
+    border: 1PX SOLID black;
+    height: fit-content;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    top:123.99px;
+}
+h4{
+    display: inline-block;
+    padding: 0px;
+   
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#intro:hover{
+    .text{
+        display: inline-block;
+    }
+    
+    height: 200px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+     
+}
+#skills:hover{
+    .text{
+        display: inline-block;
+    }
+   
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+     
+}
+
+#hobby:hover{
+    .text{
+        display: inline-block;
+    }
+    
+
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+     
+}
+#contact:hover{
+    .text{
+        display: inline-block;
+    }
+   
+    height: 80px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+     
+}
+.iiitllink{
+    color:black;
+    text-decoration: none;
+}
