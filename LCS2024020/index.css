@@ -1,0 +1,249 @@
+body{
+    
+    background-color:grey;
+}
+a:hover{
+    text-decoration:underline;
+    text-decoration-style:solid;
+    text-decoration-thickness:3px;
+    text-decoration-color:black;
+}
+
+.homes
+{
+    background-color:#fda172;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:100%;
+    height:auto;
+    
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    border-radius:50px;
+    position:relative;
+    
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.nav
+{
+    
+
+    width:100%;
+    color:black;
+    font-size:22px;
+    display:flex;
+    flex-direction:row;
+    font-family:pacifico;
+    text-align:center;
+    border:1px solid white;
+    
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   
+    
+}
+.ab,.s,.achieve,.c,.h
+{
+    
+
+    width:20vw;
+    background-color:#a9cdd7;
+    border:1px solid white;
+}
+
+.profile
+{
+    
+    width:200px;
+    height:200px;
+    border:6px solid black;
+    border-radius:50%;
+    margin:auto;
+    transition:transform 0.3s ease-in-out;
+}
+.profile:hover
+{
+    transform:scale(1.5);
+    
+}
+
+
+.name
+{
+    color:white;
+    font-size:50px;
+    font-family:arial;
+    font-weight: bold;
+    text-align:center;
+   transition:transform 0.8s ease-in-out;
+}
+.idk{
+    transition:transform 0.8s ease-out;
+    
+}
+.idk:hover,.name:hover
+{
+
+    text-shadow:0px 10px 20px rgba(0,0,0,0.5);
+    transform:scale(1.5);
+}
+
+.about
+{
+    background-image:url("images/ab_back.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:50px;
+    
+    box-sizing:border-box;
+    padding:20px;
+
+
+}
+#ab_text
+{
+    text-align:center;
+    font-size:20px;
+    font-family:"Arial";
+    font-weight:550;
+    color:beige;
+   
+
+}
+.skills
+{
+   background-image:url("images/skill_back.jpg");
+   background-repeat:no-repeat;
+    background-size:100% 100%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:98vw;
+    box-sizing:border-box;
+    height:auto;
+    border-radius:50px;
+    font-size:50px;
+    padding:20px;
+    font-weight:bold;
+    font-family:arial;
+    text-align:center;
+    overflow:hidden;
+    color:white;
+}
+.skilling
+{
+    display:flex;
+    flex-direction:row;
+    gap:100px;
+}
+.java
+{
+    width:200px;
+    height:200px;
+    border:4px solid black;
+    border-radius:50%;
+}
+.javac{
+    transition:transform 0.75s ease-in-out;
+}
+.javac:hover{
+    transform:rotateY(180deg);
+    
+}
+.contact
+{
+    text-align:center;
+    background-image:url("images/contact_back.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#fda172;
+    height:auto;
+    border-radius:50px;
+    padding:20px;
+    font-size:45px;
+    font-family:arial;
+    font-weight:bold;
+    
+}
+.social
+{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    gap:60px;
+
+    
+}
+.achievements
+{
+    background-image:url("images/achieve_.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    height:auto;
+    border-radius:50px;
+    padding:20px;
+    color:cornsilk;
+    font-size:45px;
+    font-family:arial;
+    font-weight:bold;
+}
+.forms
+{
+    width:600px;
+    
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-color:grey;
+    border:4px solid black;
+    color:white;
+    border-radius:40px;
+
+}
+.sub:hover{
+    background-color:darkseagreen;
+    color:white;
+}
+.sub
+{
+    border-radius:20px;
+    width:150px;
+    background-color:burlywood;
+    height:40px;
+}
+.inp:hover{
+    background-color:lightgoldenrodyellow;
+    height:50px;
+    font-size:45px;
+}
+.inp
+{
+    height:30px;
+    width:500px;
+    border-radius:40px;
+    color:black;;
+    background-color:lightblue;
+    
+}
+.handle
+{
+    color:#fda172;
+    
+}
+.handimg
+{
+    border-radius:50%;
+    transition:transform 1s ease-in-out;
+}
+.handimg:hover{
+transform:rotateY(360deg);
+}
