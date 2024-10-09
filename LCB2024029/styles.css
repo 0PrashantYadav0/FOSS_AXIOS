@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s;
+}
+
+header {
+    
+    color: rgb(110, 98, 98);
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    transition: background 0.3s;
+}
+
+nav:hover {
+    background: #555;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+section.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+section#about {
+    background: #f4f4f4;
+}
+
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #f4f4f4;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

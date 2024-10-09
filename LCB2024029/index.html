@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p> TANISH
+
+        </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies & Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is TANISH KUMAR RAI. An omnipotent guy from RAJASTHAN, . Over the years, I’ve cultivated a passion for coding and also interested in tech genre, which drives me to learn new things and helping others. , and I’m always eager to connect with others who share similar interests!
+
+        </p>
+    </header>.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Coder</li>
+            <li>Designer</li>
+            <li>Photo/Video Editor</li>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Video editing </li>
+            <li>Dubbing/voice acting</li>
+            <li>Photography</li>
+            <li>Exploring new genre</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-tanishrai0088@gmail.com</a></p>
+        <p>
+            LinkedIn: <a href="https://www.linkedin.com/in/tanish-kumar-rai-179614326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a><br>
+            Instagram: <a href="https://www.instagram.com/tanish_opinion/profilecard/?igsh=MXN1MTBkYXM0bTFhNw==" target="_blank"> Instagram</a>
+        </p>
+    </footer>
+
+    <script>
+        // Add scroll animation effect
+        const sections = document.querySelectorAll('section');
+        const options = {
+            threshold: 0.1,
+        };
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
