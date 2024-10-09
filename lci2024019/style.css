@@ -1,0 +1,42 @@
+body{
+    background-image:url(website1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#one{
+    border: 8px dotted rgb(235, 149, 229);
+    border-radius: 50%;
+    animation-name: move;
+    animation-duration: 5s;
+    box-shadow: 7px 7px 7px pink;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{transform: translate(-50px);}
+ 50%{transform: translateX(500px);}
+}
+#two{
+    border: 8px dotted rgb(219, 121, 209);
+    box-shadow: 7px 7px 7px pink;
+    margin-left: 900px;
+    border-radius: 50%;
+    animation-name: move1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes move1{
+    50%{transform: translateX(-500px);}
+}
+#three{
+    text-align: center;
+    font-size: xx-large;
+    
+    border-radius: 50%;
+
+    height: 100px
+    width: 100%;
+    font-family: cursive;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>intro</title>
+    <style>
+        #intro{
+            font-style: italic;
+            font-size: 80px;
+            text-align: center;
+            text-decoration: wavy underline;
+            color: rgb(251, 252, 252);
+            animation-name: grow;
+            animation-duration: 4s;
+            animation-iteration-count: 10;
+        
+        }
+        @keyframes grow{
+            50%{transform: scale(1.5,1.5);}
+        }
+        body{
+            background-image:url(website3.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #name{
+            color: white;
+            font-size: 40px;
+            margin-left: 150px;
+             animation-name:color1;
+             height: 150px;
+             animation-duration: 2s;
+             animation-iteration-count: infinite;
+        }
+        @keyframes color1{
+           50%{opacity: 0;}
+        }
+        #roll{
+            color: azure;
+            font-size: 40px;
+            height: 150px;
+            margin-left: 650px;
+            animation-name: color2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes color2{
+            50%{opacity: 0;}
+        }
+        #branch{
+            color: azure;
+            font-size: 40px;
+            margin-left: 150px;
+            animation-name: color3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes color3{
+            50%{opacity: 0;}
+        }
+    </style>
+   
+    
+   </head>
+   <body>
+    <div>
+   <h1 id="intro">------✨INTRO✨------</h1>
+   </div>
+   <div>
+   <h2 id="name">Name: 👩‍🦰Hansika Reddy</h2>
+   </div>
+   <div>
+   <h2 id="roll">Roll No.: 🎶LCI2024019</h2>
+   </div>
+   <div>
+   <h2 id="branch">Branch: 🎶Computer Science and AI</h2>
+   </div>
+    </body>
+    </html>
