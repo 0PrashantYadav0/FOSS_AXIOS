@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://i.postimg.cc/yxPdVVCX/zenitsu-wallpaper-min.jpg");
+    background-size: cover;
+}
+#main{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 1000px;
+    height: 500px;
+    border: 2px solid rgb(220, 217, 49,0.5);
+    border-radius: 20px;
+    padding-bottom: 25px;
+}
+#port
+{
+    margin-left: 350px;
+    font-size: 50px;
+    font-family: "Nabla", system-ui;
+}
+#personal{
+    font-size: 40px;
+    font-family: "Honk", system-ui;
+}
+#abt
+{
+    color: white;
+    font-size: 27px;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 600;
+}
+#sk{
+    font-size: 40px;
+    font-family: "Honk", system-ui;
+}
+#cover{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 400px;
+    height: 70px;
+    width: 130px;
+    background-color: rgb(0, 0, 0);
+}
+#ski{
+    color: white;
+    font-size: 20px;
+    font-family: "Anton SC", sans-serif;
+}
+#abtme{
+    font-size: 40px;
+    font-family: "Honk", system-ui;
+}
+#abtmec{
+    color: white;
+    font-size: 37px;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 600;
+}
+#links{
+    margin-top: 20px;
+    margin-left: 400px;
+     /* border: 2px solid rgb(0, 0, 0); */
+     height: 150px;
+     width: 800px;
+     padding: 20px
+}
+#git{
+    margin-left: 30px;
+}
+a{
+    padding: 10px;
+}
+/* #katana{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+} */
